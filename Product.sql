@@ -273,15 +273,9 @@ CREATE TABLE Customer (
     Last_Name varchar(50),
     Email varchar(50),
     Pass_word varchar(50),
-    Phone int
+    Phone int,
+    Address varchar(255)
 );
 select * from Customer;
 
-CREATE TABLE Address (
-    CustomerID int primary key,
-    Province varchar(50),
-    District varchar(50),
-    Postal_ID int
-);
-select * from Address;
 
